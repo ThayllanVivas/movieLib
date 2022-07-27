@@ -1,0 +1,55 @@
+#navbarContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+
+    #navbar{
+        width: 90%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+    
+        #div1 {
+            // background-color: aqua;
+            
+            h2 {
+                display: flex;
+                height: inherit;
+                align-items: center;
+            }
+        
+            svg, a{
+                color: #f7d354;
+                background: transparent;
+                text-decoration: none;
+                font-size: 30px;
+                margin-left: 0.3rem;
+            }
+        
+        }
+    
+        #div2 {
+            // background-color: bisque;
+            display: flex;
+            align-items: center;
+            input {
+                padding: 0.6rem 0.4rem;
+                text-align: center;
+                border-radius: 0.3rem;
+                border: 0px;
+            } 
+            button {
+                margin-left: 0.5rem;
+                background-color: #f7d354;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                border-radius: 0.3rem;
+                font-size: 30px;
+            }
+        }
+    }
+}

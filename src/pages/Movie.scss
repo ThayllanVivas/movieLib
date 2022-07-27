@@ -1,0 +1,32 @@
+#container{
+    width: 100%;
+
+    #movieInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        padding: 2rem 0;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+
+        div {
+            display: flex;
+            align-items: left;
+            margin-top: 1rem;
+
+            img {
+                border-radius: 0.5rem;
+            }
+            h4 {
+                font-size: 2rem;
+            }
+            svg {
+                margin-right: 0.4rem;
+                color: #f7d354;
+                font-size: 20px;
+            }
+        }        
+    }
+}
